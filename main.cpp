@@ -2,10 +2,14 @@
 #include <fstream>
 #include <vector>
 #include "room.hpp"
+#include "player.hpp"
 #include <sstream>
 #include <string>
+#include<bits/stdc++.h> 
+
 
 std::vector<Room> dungeon(50); 
+
 int currentRoomId = 1; 
 bool justEnteredRoom = true;
 
@@ -84,7 +88,7 @@ bool roomMovement(std::string playerInput){
 bool processInput(){
 
 	std::string playerInput;
-    std::getline(std::cin, playerInput); 
+    	std::getline(std::cin, playerInput); 
 
 	if(playerInput == "quit" || playerInput == "exit"){
 		return false; 
@@ -100,7 +104,15 @@ bool processInput(){
 }
 
 int main(){
+	std::cout <<"Please Enter a Name"<<std::endl;
+	std::string name;
+	std::cin>>name;
 
+	std::vector<std::string> inventory(50);
+	Player *Player1 = new Player();
+
+	Player1->init(name, inventory);
+	Player1->setName(name);
 	std::cout << "Hello, player" << std::endl;
 
 	if(!fillDungeon("castle.dng")){
@@ -117,7 +129,7 @@ int main(){
 		}
 	}while(processInput());
 
-	std::cout << "See you next time..." << std::endl;
+	std::cout << "See you next time...!" << std::endl;
 
 	return 0; 
 }
