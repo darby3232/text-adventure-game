@@ -10,6 +10,9 @@ Player::Player(){
 void Player::setName(std::string name){
 	this->playerName = name;
 }
+std::string Player::getName(){
+	return this->playerName;
+}
 void Player::addItem(std::string item){
 	this->inventory.push_back(item);
 }

@@ -9,7 +9,7 @@
 
 
 std::vector<Room> dungeon(50); 
-
+Player *Player1 = new Player();
 int currentRoomId = 1; 
 bool justEnteredRoom = true;
 
@@ -109,11 +109,10 @@ int main(){
 	std::cin>>name;
 
 	std::vector<std::string> inventory(50);
-	Player *Player1 = new Player();
 
 	Player1->init(name, inventory);
 	Player1->setName(name);
-	std::cout << "Hello, player" << std::endl;
+	std::cout << "Hello, "<<Player1->getName() << std::endl;
 
 	if(!fillDungeon("castle.dng")){
 		std::cerr << "castle.dng could not be loaded" << std::endl;
