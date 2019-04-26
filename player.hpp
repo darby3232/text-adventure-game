@@ -12,6 +12,7 @@ class Player{
 		void setName(std::string name);
 		void addItem(std::string item); 
 		int useItem(std::string item);
+		void printInventory();
 		std::string getName(); 
 	private:
 		std::string playerName;

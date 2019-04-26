@@ -103,6 +103,14 @@ bool processInput(){
 	return true;
 }
 
+//Create a large switch statement for different actions when items are used. Search each on the use of an item.
+bool useItem(std::string item){
+	
+	
+}
+
+
+
 int main(){
 	std::cout <<"Please Enter a Name"<<std::endl;
 	std::string name;
@@ -112,7 +120,7 @@ int main(){
 
 	Player1->init(name, inventory);
 	Player1->setName(name);
-	std::cout << "Hello, "<<Player1->getName() << std::endl;
+	std::cout << "Hello, "<< Player1->getName() << std::endl;
 
 	if(!fillDungeon("castle.dng")){
 		std::cerr << "castle.dng could not be loaded" << std::endl;

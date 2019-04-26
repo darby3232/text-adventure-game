@@ -1,7 +1,7 @@
 #include "player.hpp"
 #include <vector>
 #include <string>
-#include<bits/stdc++.h> 
+#include <bits/stdc++.h> 
 
 
 Player::Player(){
@@ -30,6 +30,13 @@ int Player::useItem(std::string item){
 		return 0;
 	}
 	return 0;
+}
+
+void Player::printInventory(){
+	std::cout << playerName << "'s Inventory: " << std::endl;
+	for(std::string inv_item: inventory){
+		std::cout << inv_item << std::endl;	
+	}	
 }
 
 void Player::init(std::string playerName, std::vector<std::string> inventory){
