@@ -49,7 +49,42 @@ bool validateRooms(){
 	return true; 
 }
 
+bool grabItem(std::string playerInput){
+	if(playerInput.find("grab") != std::string::npos){
+		int temp = playerInput.find("grab");
+		temp+=5;
+		std::string sub= playerInput.substr(temp, 20);
+			int temp2=sub.find(" ");
+			sub =sub.substr(0,temp-temp2+1);
+			Player1->addItem(sub);
+			std::cout << "You have picked up a " << sub << "." << std::endl;
 
+			return true;
+	}else if(playerInput.find("take") != std::string::npos){
+		int temp = playerInput.find("take");
+		temp+=5;
+		std::string sub= playerInput.substr(temp, 20);
+			int temp2=sub.find(" ");
+			sub =sub.substr(0,temp-temp2+1);
+			Player1->addItem(sub);
+			std::cout << "You have picked up a " << sub << "." << std::endl;
+
+			return true;
+	}else if(playerInput.find("get") != std::string::npos){
+		int temp = playerInput.find("get");
+		temp+=5;
+		std::string sub= playerInput.substr(temp, 20);
+			int temp2=sub.find(" ");
+			sub =sub.substr(0,temp-temp2+1);
+			Player1->addItem(sub);
+			std::cout << "You have picked up a " << sub << "." << std::endl;
+
+			return true;
+	}
+
+
+	return false;
+}
 bool roomMovement(std::string playerInput){
 
 	int moveResult = 0; 
@@ -97,7 +132,9 @@ bool processInput(){
 	if(roomMovement(playerInput)){
 		return true;
 	} 
-
+	if(grabItem(playerInput)){
+		return true;
+	}
 	std::cout << playerInput << " not understood." << std::endl;
 
 	return true;
@@ -106,7 +143,7 @@ bool processInput(){
 //Create a large switch statement for different actions when items are used. Search each on the use of an item.
 bool useItem(std::string item){
 	
-	
+	return false;
 }
 
 
