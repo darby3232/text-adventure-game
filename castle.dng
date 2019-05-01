@@ -2,8 +2,16 @@
 2|You stand on your balcony, looking across a verdant valley below.|0|1|0|0 
 3|You stand outside a bedroom. There is a door to the north. There is a hallway to the east. There is a hallway to the south. |1|5|4|0
 4|You are standing in a hallway. There is a hallway to the west. There is a hallway to the east. There is a door to the south. |0|-7|6|3
-5|A wild bear is blocking the path. Head North. |3|0|0|0
+5|You stand in a hallway. There is a hallway to the north. There is a door to the south. |3|-10|0|0
 6|You are standing in a hallway. There is a hallway to the west. There is a door to the east. |0|0|9|4
 7|You have entered a stone room. There is a door to the north. There is a door to the south. |4|8|0|0
-8|You made it to the end of the dungeon! Congratulations! |0|7|0|0
+8|You are in the middle of a pink stone room. There is a door the south. There is a door to the east. |7|11|12|0
 9|You stand in a room with a key in it. There is a door to the west.|0|0|0|6
+10|You have entered a room with a wild bear. The bear attacks you, you die. Game Over. |0|0|0|0
+11|You stand in a hallway. There is a door to the north. There is a hallway to the south. There is a large door to the west. There is a door to the east. |8|15|14|13
+12|You stand in a room with an Ax in it. There is a door to the west. |0|0|0|8
+13|There is a Monster guarding the way west. There is a door to the west. There is a door to the east. |0|0|11|16
+14|You stand in a room with a sign saying, "To defeat the monster, use the ax!" There is a door to the west. |0|0|0|11
+15|You stand in a hallway. There is a hallway to the north. There is a door to the south. |11|-17|0|0
+16|Congratulations! You have defeated the Monster! The monster drops a key. There is a door to the east. |0|0|11|0
+17| Congratulations! You have cleared the Dungeon! Thanks for playing! |0|0|0|0
