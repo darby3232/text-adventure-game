@@ -1,5 +1,5 @@
 This is how a dungeon file will be laid out: (A Negative room id means the door is locked)
-(Room id)|(Room Description)|(NorthRoomId)|(SouthRoomId)|(EastRoomId)|(WestRoomId) 
-1|Room Description|2|3|0|0
-2|Castle Wall|0|1|0|0 
-3|Room Description 3|1|0|0|0
+(Room id)|(Room Description)|(NorthRoomId)|(SouthRoomId)|(EastRoomId)|(WestRoomId)|itemID1, itemID2, itemID3.... 
+1|Room Description|2|3|0|0|1, 2
+2|Castle Wall|0|1|0|0 |3
+3|Room Description 3|1|0|0|0|

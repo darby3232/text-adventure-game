@@ -1,17 +1,8 @@
-1|You stand in the middle of a small, stone bedroom. There is a door to the north. There is a door to the south.|2|3|0|0 
-2|You stand on your balcony, looking across a verdant valley below.|0|1|0|0 
-3|You stand outside a bedroom. There is a door to the north. There is a hallway to the east. There is a hallway to the south. |1|5|4|0
-4|You are standing in a hallway. There is a hallway to the west. There is a hallway to the east. There is a door to the south. |0|-7|6|3
-5|You stand in a hallway. There is a hallway to the north. There is a door to the south. |3|-10|0|0
-6|You are standing in a hallway. There is a hallway to the west. There is a door to the east. |0|0|9|4
-7|You have entered a stone room. There is a door to the north. There is a door to the south. |4|8|0|0
-8|You are in the middle of a pink stone room. There is a door the south. There is a door to the east. |7|11|12|0
-9|You stand in a room with a key in it. There is a door to the west.|0|0|0|6
-10|You have entered a room with a wild bear. The bear attacks you, you die. Game Over. |0|0|0|0
-11|You stand in a hallway. There is a door to the north. There is a hallway to the south. There is a large door to the west. There is a door to the east. |8|15|14|13
-12|You stand in a room with an Ax in it. There is a door to the west. |0|0|0|8
-13|There is a Monster guarding the way west. There is a door to the west. There is a door to the east. |0|0|11|16
-14|You stand in a room with a sign saying, "To defeat the monster, use the ax!" There is a door to the west. |0|0|0|11
-15|You stand in a hallway. There is a hallway to the north. There is a door to the south. |11|-17|0|0
-16|Congratulations! You have defeated the Monster! The monster drops a key. There is a door to the east. |0|0|11|0
-17| Congratulations! You have cleared the Dungeon! Thanks for playing! |0|0|0|0
+1|You stand in the middle of a small, stone bedroom. You have awoken to the sound of a yelp coming from the south. There is a door to the north. There is a door to the south.|0| |2|3|0|0| |
+2|You stand on your balcony, looking across a verdant valley below. Your handy 'axe' leans against the railing.|0| |0|1|0|0|1| 
+3|You stand in the hallway outside your bedroom. There is a door to the north. There are stairs going down to the west. There is a door to the east. There is also a doorway to the south. |0| |1|-5|6|4| |
+4|You have exited the castle towards a forest. There seems to be an 'iron key' on a stump near the forest.|1|A bear stares at you with ravenous eyes near the edge of the forest.|0|0|3|0|3| |
+5|You stand in the small area of the guard's barracks, but none seem to be around. Instead a green goblin crouches in the corner looking at you.|1|The goblin's mouth twitches at the sight of you|0|8|3|0| |
+6|You stand in a pink granite room. A couple of your family's treasures are kept here, but nothing of immediate use. There is a door to the east and a door to the west.|0| |0|0|-7|3| |
+7|Here is the castle's storerooom. There is a 'banana' lying on the table next to a glowing black 'orb'.|0| |0|0|0|6|2,4|
+8|You enter the prince's antechamber. He has been bound up by the goblins! You untie him and he thanks you. Congratulations! You have saved your cousin! Type 'quit' now.|0| |0|0|0|0| |

@@ -13,33 +13,33 @@ void Player::setName(std::string name){
 std::string Player::getName(){
 	return this->playerName;
 }
-void Player::addItem(std::string item){
-	this->inventory.push_back(item);
+void Player::addItem(int itemId){
+	this->inventory.push_back(itemId);
 }
 
-int Player::useItem(std::string item){
-
-	std::vector<std::string>::iterator it;
-	it = std::find(this->inventory.begin(), this->inventory.end(), item);
-	if(it !=this->inventory.end())
-	{
-		this->inventory.erase(it);
-		return 1;
+bool Player::hurtPlayer(){
+	if(isHurt){
+		return true;
 	}
-	else{
-		return 0;
+	
+	isHurt = true;
+	return false;
+}
+
+bool Player::healPlayer(){
+	if(isHurt){
+		isHurt = false;
+		return true;
 	}
-	return 0;
+
+	return false;
 }
 
-void Player::printInventory(){
-	std::cout << playerName << "'s Inventory: " << std::endl;
-	for(std::string inv_item: inventory){
-		std::cout << inv_item << std::endl;	
-	}	
+std::vector<int> Player::getInventory(){
+	return inventory; 
 }
 
-void Player::init(std::string playerName, std::vector<std::string> inventory){
+void Player::init(std::string playerName, std::vector<int>& inventory){
 	this->playerName=playerName;
 	this->inventory=inventory;
 }
